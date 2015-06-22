@@ -1,0 +1,10 @@
+{
+	"db_type" : "mysql",
+	"db_address" : "localhost",
+	"db_name" : "product_catalog",
+	"db_user" : "root",
+	"db_password" : "",
+	"db_logfile" : "./logs/db.log",
+
+	"allowedRefDomains" : ["localhost"]
+}

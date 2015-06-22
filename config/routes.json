@@ -1,0 +1,190 @@
+[
+
+	{
+		"method" : "*",
+		"controller" : "allRequests",
+		"action" : "action"
+	},
+
+	{
+		"path" : "./test/{method}",
+		"controller" : "TestController",
+		"action" : "M0"
+	},
+
+
+
+
+
+	{
+		"path" : "./auth/",
+		"controller" : "AuthController",
+		"action" : "auth"
+	},
+
+	{
+		"path" : "./login/",
+		"controller" : "AuthController",
+		"action" : "loginPage"
+	},
+
+	{
+		"path" : "./logout/",
+		"controller" : "AuthController",
+		"action" : "logout"
+	},
+
+
+
+
+
+	{
+		"path" : "./product/{id}/",
+		"method" : "GET",
+		"controller" : "ProductController",
+		"action" : "getProduct"
+	},
+
+	{
+		"path" : "./",
+		"controller" : "CategoryController",
+		"action" : "getCategory"
+	},
+
+	{
+		"path" : "./category/",
+		"method" : "GET",
+		"controller" : "CategoryController",
+		"action" : "getCategory"
+	},
+
+	{
+		"path" : "./category/{id}/",
+		"method" : "GET",
+		"controller" : "CategoryController",
+		"action" : "getCategory"
+	},
+
+	{
+		"path" : "./attachments/",
+		"method" : "GET",
+		"controller" : "AttachmentsController",
+		"action" : "getAttachments"
+	},
+
+
+
+
+
+	{
+		"path" : "./attachments/upload/",
+		"method" : "POST",
+		"controller" : "AttachmentsController",
+		"action" : "uploadAttachments"
+	},
+
+
+
+
+
+	{
+		"comments" : "Показать список категорий",
+		"path" : "./cp/category/",
+		"method" : "GET",
+		"controller" : "CpCategoryController",
+		"action" : "editCategories"
+	},
+
+	{
+		"comments" : "Открыть категорию",
+		"path" : "./cp/category/{id}/",
+		"method" : "GET",
+		"controller" : "CpCategoryController",
+		"action" : "editCategory"
+	},
+
+	{
+		"comments" : "Обновить порядок категорий",
+		"path" : "./cp/category/",
+		"method" : "POST",
+		"controller" : "CpCategoryController",
+		"action" : "updateCategoryOrder"
+	},
+
+	{
+		"comments" : "Обновить категорию",
+		"path" : "./cp/category/{id}/",
+		"method" : "POST",
+		"controller" : "CpCategoryController",
+		"action" : "updateCategory"
+	},
+
+	{
+		"comments" : "Добавить категорию",
+		"path" : "./cp/category/",
+		"method" : "PUT",
+		"controller" : "CpCategoryController",
+		"action" : "addCategory"
+	},
+
+	{
+		"comments" : "Удалить категорию",
+		"path" : "./cp/category/{id}/",
+		"method" : "DELETE",
+		"controller" : "CpCategoryController",
+		"action" : "deleteCategory"
+	},
+
+
+
+
+
+	{
+		"comments" : "Показать все позиции",
+		"path" : "./cp/product/",
+		"method" : "GET",
+		"controller" : "CpProductController",
+		"action" : "editProducts"
+	},
+
+	{
+		"comments" : "Показать позицию",
+		"path" : "./cp/product/{id}/",
+		"method" : "GET",
+		"controller" : "CpProductController",
+		"action" : "editProduct"
+	},
+
+	{
+		"comments" : "Добавить позицию",
+		"path" : "./cp/product/",
+		"method" : "PUT",
+		"controller" : "CpProductController",
+		"action" : "addProduct"
+	},
+
+	{
+		"comments" : "Обновить позицию",
+		"path" : "./cp/product/{id}/",
+		"method" : "POST",
+		"controller" : "CpProductController",
+		"action" : "updateProduct"
+	},
+
+	{
+		"comments" : "Удалить позицию",
+		"path" : "./cp/product/{id}/",
+		"method" : "DELETE",
+		"controller" : "CpProductController",
+		"action" : "deleteProduct"
+	},
+
+	{
+		"comments" : "Удалить несколько позиций",
+		"path" : "./cp/product/",
+		"method" : "DELETE",
+		"controller" : "CpProductController",
+		"action" : "deleteProduct"
+	}
+
+]

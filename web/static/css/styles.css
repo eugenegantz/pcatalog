@@ -1,0 +1,595 @@
+	body {
+		padding:0;
+		margin:0;
+		font-family: sans-serif;
+		font-size:14px;
+		min-width:1100px;
+	}
+
+
+	/* open.std.inputs */
+
+		/* new layer */
+		.translateZ0 {
+			transform: translateZ(0);
+			-webkit-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+		}
+
+		/* open.Buttons */
+			.buttonSubmitStyle, input[type="submit"], input[type="button"] {
+				background:none;
+				background-color:#e6e6e6;
+				border:none;
+				border:1px solid #929292;
+				border-radius:2px;
+				background: rgb(247,247,247);
+				background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(221,221,221,1) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(221,221,221,1)));
+				background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%);
+				background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%);
+				background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%);
+				background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#dddddd',GradientType=0 );
+				padding:2px;
+				font-size:13px;
+				margin:0;
+			}
+
+			.buttonSubmitStyle:hover, input[type="submit"]:hover, input[type="button"]:hover {
+				border:1px solid #555;
+			}
+
+			.buttonSubmitStyle:active, input[type="submit"]:active, input[type="button"]:active {
+				background:none;
+				background-color:#ddd;
+				text-shadow: 1px 1px 0 #FFF;
+				color: #989898;
+				border:1px solid #B1B1B1;
+			}
+		/* close.Buttons */
+
+		/* Text fields */
+			.inputTextStyle, input[type="text"], input[type="number"] {
+				background:none;
+				background-color:white;
+				border:1px solid #929292;
+				border-radius:2px;
+				padding:2px;
+				font-size:13px;
+				margin:0;
+			}
+
+			.inputTextStyle:hover, input[type="text"]:hover, input[type="number"]:hover {
+				border:1px solid #555;
+			}
+
+			.inputTextStyle:active, input[type="text"]:active, input[type="number"]:active {
+
+			}
+		/* close.text fields */
+
+		.inputSelectStyle, select {
+			border:1px solid #B8B8B8;
+			border-radius:2px;
+			padding:2px;
+			font-size:13px;
+			margin:0;
+		}
+	/* close.std.inputs */
+
+
+	/* open.theme */
+
+		.none {
+			display:none;
+		}
+
+		.block {
+			display:block;
+		}
+
+		.inline-block {
+			display:inline-block;
+		}
+
+		.inline-table {
+			display:inline-table;
+		}
+
+		.table {
+			display:table;
+		}
+
+		.table-cell {
+			display:table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+		.container.gray {
+			margin: 12px 0;
+			background-color: #F5F5F5;
+			padding: 12px;
+			border: 1px solid #C8C8C8;
+		}
+
+		.w100percent {
+			width:100%;
+		}
+
+		/* open.pagination */
+			.paginationRow {
+				text-align:center;
+				padding:12px 0;
+			}
+
+			.paginationList {
+				list-style: none;
+				display:inline-block;
+				margin:0;
+				padding:0;
+			}
+
+			.paginationList li {
+				display:inline-block;
+				height:auto;
+				font-size:14px;
+				padding:8px;
+				cursor:pointer;
+				color:#08329a;
+			}
+
+			.paginationList li:hover, .paginationList li.selected {
+				background-color:#268ed2;
+				color:white;
+			}
+		/* close.pagination */
+
+
+		/* open.nButtons */
+			.nbutton {
+				position: relative;
+				padding:12px;
+				text-align: center;
+				cursor:pointer;
+				text-decoration:none;
+			}
+
+			.nbutton.red {
+				background-color: #b80000;
+				color:white;
+				border:1px solid #b80000;
+			}
+
+			.nbutton.red:hover {
+				background-color: #ff0000;
+			}
+
+			.nbutton.blue {
+				background-color: #268ed2;
+				color:white;
+				border:1px solid #08329a;
+			}
+
+			.nbutton.blue:hover {
+				background-color: #51b6d2;
+			}
+
+			.nbutton.dashed {
+				border:1px dashed #C8C8C8;
+				color:black;
+			}
+
+			.nbutton.dashed.hoverblue:hover {
+				border:1px solid #268ED2;
+				color:#268ED2;
+			}
+		/* close.nButtons */
+
+		/* open.tables */
+			.tableStyle_01 {
+				border-collapse: collapse;
+			}
+
+			.tableStyle_01 th {
+				border-bottom:2px solid black;
+				padding:10px;
+				text-align: left;
+			}
+
+			.tableStyle_01 td {
+				padding:10px;
+				text-align: left;
+			}
+
+			.tableStyle_01 tbody tr:hover {
+				background-color:#e6e6e6;
+			}
+		/* close.tables */
+
+		.nthumbnail {
+			position:relative;
+			margin:24px;
+			padding:10px;
+			border:1px solid #C8C8C8;
+		}
+
+		.nthumbnail:hover {
+			position:relative;
+			margin:24px;
+			padding:10px;
+			border:1px solid #666666;
+		}
+
+		.nthumbnail .img {
+			position:relative;
+			background-position: center;
+			background-size: cover;
+			background-color:whitesmoke;
+			height:160px;
+			width:160px;
+		}
+	/* close.theme */
+
+
+	.mainCol {
+		position:relative;
+		width : 1000px;
+		margin:0 auto;
+		height:auto;
+		padding-top:24px;
+	}
+
+	.titleRow {
+		position:relative;
+		font-size: 16px;
+		border-bottom:5px solid #b80000;
+	}
+
+	.titleCol {
+		position:relative;
+		margin: 0 auto;
+		padding:16px;
+		width:1000px;
+		text-align:center;
+		box-shadow: 0 5px 0 0 orange;
+	}
+
+	.navRow {
+		position: relative;
+		background-color:#555;
+		z-index: 1;
+	}
+
+	.navRow .item {
+		position: relative;
+		display:inline-block;
+		padding:10px;
+		color:white;
+		cursor:pointer;
+		font-size:12px;
+		border-right: 1px solid #777;
+		text-decoration: none;
+	}
+
+	.navRow .item:hover {
+		background-color:#666;
+	}
+
+	.navRow .item .sub {
+		display:none;
+		position:absolute;
+		left:0;
+		top:100%;
+		width:128px;
+		height:auto;
+		background-color:#444;
+	}
+
+	.navRow .sub .subitem {
+		padding:10px 5px;
+		position:relative;
+		display:block;
+		cursor:pointer;
+		text-decoration: none;
+		color:white;
+	}
+
+	.navRow .sub .subitem:hover {
+		background-color: #666;
+	}
+
+	.navRow .item:hover .sub {
+		display:block;
+	}
+
+	.buttonsRow {
+		position: relative;
+		text-align:right;
+		border-top:1px dotted #555;
+		padding-top:24px;
+		margin-top:24px;
+	}
+
+
+
+	/* open.pagesStyles */
+		#pageCpProducts {}
+
+		#pageCpProducts .optionCol {
+			display:inline-block;
+			margin-right:16px;
+		}
+
+		/*---------------*/
+
+		#pageCpProduct {}
+
+		#pageCpProduct .addAttachmentButton {}
+
+		#pageCpProduct .addAttachmentButton,
+		#pageCpCategory .addAttachmentButton{
+			margin:24px;
+		}
+
+		#pageCpProduct .addAttachmentButton .img,
+		#pageCpCategory .addAttachmentButton .img {
+			position:relative;
+			background-color:white;
+			height:158px;
+			width:158px;
+			border:1px dashed #C8C8C8;
+		}
+
+		#pageCpProduct .attachmentButton,
+		#pageCpCategory .attachmentButton {
+			display:none;
+			position: absolute;
+			background-color:black;
+			border:1px solid white;
+			position:absolute;
+			margin:5px;
+			color:white;
+			width:24px;
+			height:24px;
+			text-decoration: none;
+			cursor:pointer;
+		}
+
+		#pageCpProduct .nthumbnail:hover .attachmentButton,
+		#pageCpCategory .nthumbnail:hover .attachmentButton {
+			display:table;
+		}
+
+		#pageCpProduct .attachmentButton:hover,
+		#pageCpCategory .attachmentButton:hover {
+			background-color: #555;
+		}
+
+		#pageCpProduct .attachmentButton span,
+		#pageCpCategory .attachmentButton span {
+			display:table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+		#pageCpProduct .attachmentButton.delete,
+		#pageCpCategory .attachmentButton.delete {
+			left:0;
+			top:0;
+		}
+
+		#pageCpProduct .attachmentButton.full,
+		#pageCpCategory .attachmentButton.full {
+			right:0;
+			top:0;
+		}
+
+		/*---------------*/
+
+		#pageCpProduct .infoTable,
+		#pageProduct .infoTable {
+			width:100%;
+			padding:10px;
+			vertical-align: top;
+		}
+
+		#pageCpProduct .descriptionCol,
+		#pageProduct .descriptionCol {
+			width:68%;
+			padding:0 1% 0 1%;
+			vertical-align: top;
+		}
+
+		#pageCpProduct .descriptionCol [name=description] {
+			width: 96%;
+			height: 200px;
+			padding: 2%;
+			font-size: 14px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		#pageCpProduct .propsCol,
+		#pageProduct .propsCol {
+			width:30%;
+			border-left:1px dotted #555;
+			padding-left:1%;
+		}
+
+		#pageCpProduct .propsCol table,
+		#pageProduct .propsCol table {
+			width:100%;
+		}
+
+		#pageCpProduct .propsCol table td,
+		#pageProduct .propsCol table td {
+			padding: 12px 0;
+		}
+
+		/*---------------*/
+
+		#categoryDeleteDialogWindow {
+			position:absolute;
+			top:0;
+			left:0;
+			margin:24px;
+			width: 256px;
+			height: auto;
+			padding: 10px;
+			padding-top:24px;
+			border: 1px solid #999;
+			box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.35);
+			background-color: white;
+            z-index:1;
+		}
+
+		#categoryDeleteDialogWindow input, #categoryDeleteDialogWindow select {
+			width:100%;
+			position:relative;
+			margin:5px 0;
+		}
+
+		#categoryDeleteDialogWindow .closeButton {
+			position: absolute;
+			font-weight: bold;
+			position: absolute;
+			top:0;
+			right: 0;
+			margin: 5px;
+			color:#B80000;
+			cursor:pointer;
+			font-size: 12px;
+		}
+
+		#categoryDeleteDialogWindow .closeButton:hover {
+			text-decoration:underline;
+		}
+
+		/*---------------*/
+
+		#pageCpCategories .categoryItem,
+		#pageCategories .categoryItem {
+			display:inline-block;
+			position:relative;
+			margin:24px 12px 24px 12px;
+			padding:10px;
+			border:1px solid #C8C8C8;
+			background-color: white;
+		}
+
+		#pageCpCategories .categoryItem .button {
+			position:absolute;
+			margin:12px;
+			padding:5px;
+			background-color: black;
+			border:1px solid white;
+			display:none;
+			color:white;
+			border-radius: 3px;
+			text-decoration: none;
+			top:0;
+			left:0;
+		}
+
+		#pageCpCategories  .categoryItem .button:hover {
+			background-color:#555;
+		}
+
+		#pageCpCategories .categoryItem:hover .button {
+			display: block;
+		}
+
+		#pageCpCategories  .categoryItem .title,
+		#pageCategories .categoryItem .title {
+			border-right:1px dotted #555;
+			padding:0 10px 0 10px;
+		}
+
+		#pageCpCategories .categoryItem .img div,
+		#pageCategories .categoryItem .img div {
+			position:relative;
+			width:64px;
+			height:64px;
+			background-color: whitesmoke;
+			background-position:center;
+			background-size:cover;
+		}
+
+		#pageCpCategories .categoryItem .hasProducts,
+		#pageCategories .categoryItem .hasProducts {
+			padding:0 10px 0 10px;
+		}
+
+		#pageCpCategories .categoryItem:hover,
+		#pageCategories .categoryItem:hover {
+			border:1px solid #999;
+		}
+
+		#pageCpCategories #newCategoryItemButton {
+			margin: 24px 12px 24px 12px;
+			background-color: #FFF;
+			width: 160px;
+			height: 66px;
+			cursor: pointer;
+		}
+
+		#pageCategories .categoryItem a {
+			position:absolute;
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+		}
+
+		/*---------------*/
+
+		#pageProducts .productItem {
+			display:inline-block;
+			position:relative;
+			width:256px;
+			margin:24px;
+			padding:10px;
+			border:1px solid #C8C8C8;
+		}
+
+		#pageProducts .productItem .title {
+			padding:5px 0 5px 0;
+			font-size:14px;
+			border-bottom:1px solid #e6e6e6;
+		}
+
+		#pageProducts .productItem .img {
+			position:relative;
+			width:256px;
+			height:256px;
+			background-color: whitesmoke;
+			background-position:center;
+			background-size:cover;
+		}
+
+		#pageProducts .productItem .description {
+			font-size:12px;
+			padding:5px 0 5px 0;
+		}
+
+		#pageProducts .productItem:hover {
+			border:1px solid #999;
+		}
+
+		#pageProducts .productItem a {
+			position:absolute;
+			width:100%;
+			height:100%;
+			top:0;
+			left:0;
+		}
+
+		.footer {
+			position: relative;
+			height:64px;
+		}
+	/* close.pagesStyles */
